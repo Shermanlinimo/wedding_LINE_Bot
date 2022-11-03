@@ -24,8 +24,8 @@ app = Flask(__name__)
 
 # The line bot access token and webhook id
 channel_access_token = '{bot_access_token}'
-line_bot_api = LineBotApi(channel_access_token)
-handler = WebhookHandler('{bot_webhook_id}')
+line_bot_api = LineBotApi(GADfZI6OejWZ3w4JKOXtI0f38+OqYe+d7xqFCkcErC2HrzaVUYOuvwmw5kYfdh+kzo34/3GgrAPhnyz3TEkM3Zf42DNz4Cu3zCSNvJZL4uPaUr0fkywgKyEhdUeZd3niyVISxgrwfzcCHqZgjEoAegdB04t89/1O/w1cDnyilFU=)
+handler = WebhookHandler('{1b734f0acb7d58f2fad64d4eb5e94d3b}')
 
 # The imgur client id, client secret, access token and refresh token
 client_id = '{imgur_client_id}'
